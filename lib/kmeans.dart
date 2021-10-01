@@ -38,21 +38,28 @@ class KMeans {
     return (distancesFromCentroids.indexOf(distancesFromCentroids.reduce(min)) > 0) ? distancesFromCentroids.indexOf(distancesFromCentroids.reduce(min)) : 3;
   }
 
-  MaterialColor getClusterColor(ColorsClusters cc){
-    switch(cc){
-      case ColorsClusters.Cluster1: return Colors.yellow;
-      case ColorsClusters.Cluster2: return Colors.green;
-      case ColorsClusters.Cluster3: return Colors.cyan;
-      default: return Colors.blue;
-    }
-  }
+  // MaterialColor getClusterColor(ColorsClusters cc){
+  //   switch(cc){
+  //     case ColorsClusters.Cluster1: return Colors.yellow;
+  //     case ColorsClusters.Cluster2: return Colors.green;
+  //     case ColorsClusters.Cluster3: return Colors.cyan;
+  //     default: return Colors.blue;
+  //   }
+  // }
 
   MaterialColor getColorOfCluster(Point<num> point) {
     switch(calculateClusterIndexOfElement(point)){
       case 0: return Colors.yellow;
       case 1: return Colors.green;
-      case 2: return Colors.cyan;
-      default: return Colors.blue;
+      case 2: return Colors.amber;
+      case 3: return Colors.indigo;
+      case 4: return Colors.deepPurple;
+      case 5: return Colors.lightGreen;
+      case 6: return Colors.orange;
+      case 7: return Colors.pink;
+      case 8: return Colors.lime;
+      case 9: return Colors.blue;
+      default: return Colors.grey;
     }
     // return getClusterColor(calculateClusterIndexOfElement(point) as ColorsClusters);
   }
