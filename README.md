@@ -1,16 +1,15 @@
-# untitled3
+# KMeans
 
-A new Flutter project.
+KMeans VVSU Project
 
-## Getting Started
+## Info
 
-This project is a starting point for a Flutter application.
+Проект демонстрирует работу алгоритма K средних для определения кластеров (с некоторыми фишками).
 
-A few resources to get you started if this is your first Flutter project:
+Части информации доступна в репозитории:
+https://github.com/SkrejetCepey/SkrejetCepey.github.io
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+Проект доступен по ссылке:
+https://kmeans-web-app.web.app/
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+![image](https://user-images.githubusercontent.com/41366481/161439036-741facbc-8e41-4d99-9370-3cb466512106.png)
